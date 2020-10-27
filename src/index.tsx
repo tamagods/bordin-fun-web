@@ -1,13 +1,26 @@
+import { createMuiTheme, ThemeProvider } from '@material-ui/core';
+import { green } from '@material-ui/core/colors';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
+import Landing from './pages/Landing/Landing';
 import reportWebVitals from './reportWebVitals';
 
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#4285f4',
+    },
+    secondary: {
+      main: green[500],
+    },
+  },
+});
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ThemeProvider theme={theme}>
+    <Landing />
+  </ThemeProvider>,
   document.getElementById('root')
 );
 

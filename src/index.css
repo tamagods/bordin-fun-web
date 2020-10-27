@@ -1,10 +1,9 @@
+* {
+    font-family: 'Bai Jamjuree', sans-serif !important;
+}
+
 body {
     margin: 0;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Bai Jamjuree', sans-serif;
-}
-
-code {
-    font-family: 'Bai Jamjuree', sans-serif;
 }

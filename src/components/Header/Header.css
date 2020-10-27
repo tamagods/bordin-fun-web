@@ -1,0 +1,7 @@
+.responsive {
+    width: 100%;
+    max-width: 25px;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
